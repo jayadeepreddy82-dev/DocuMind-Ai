@@ -1,0 +1,33 @@
+# Environment variables and secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary data and vector caches
+temp_uploads/
+faiss_index/
